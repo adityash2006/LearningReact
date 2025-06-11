@@ -5,11 +5,13 @@ import './App.css'
 import Likebutton from "./Likebutton.jsx"
 import Ludo from "./Ludo.jsx"
 import Todo from './Todo.jsx'
+import Lottery from './Lottery.jsx'
+import Commentform from './Commentform.jsx'
+import Comment from './Comment.jsx'
+import Joke from './Joke.jsx'
 function App() {
-
   return (<div>
-    
-    <Todo/>
+    <Joke/>
  </div>
   );
 }

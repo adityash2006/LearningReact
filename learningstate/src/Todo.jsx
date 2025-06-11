@@ -50,7 +50,6 @@ let done=(id)=>{
 }
 
     return <div><h2>Todo List </h2>
-
     <input onChange={newtask} placeholder="add your task" value={newtodo} />
     <button onClick={addtask}>Add</button>
     <ul>
